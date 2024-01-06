@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Bookstore </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+                  <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0px;
+            background-color: #FFD1DC;
+            color: #333;
+        }
+
+        header {
+            background-color: #011e41;
+            padding: 100px;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .home-intro {
+            background-color: #011e41;
+            padding: 80px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .intro{
+        box-shadow:inset;
+        animation: fadeInDown 1s ease-in-out;
+
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .explore-btn {
+            background-color: #140114;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 1.3s ease-in-out;
+        }
+
+        .explore-btn:hover {
+            background-color: #bdb09c;
+        }
+
+        footer {
+            background-color: #00050a;
+            color: #fff;
+            text-align: center;
+            padding: 25px;
+        }
+        @keyframes fadeInDown {
+            to{
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+        from {
+                opacity: 2;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 2;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="intro">
+        <h1>Introducing to the World of Books</h1>
+    </header>
+    
+
+    <div class="home-intro">
+        <h2>Welcome to our Library!</h2>
+        <p>Fantasy to Reality, and Everything
+In-between. Explore our vast collection of books and enjoy it.</p>
+
+        <a href="Explore Now.html" target="f32" class="explore-btn">Explore Now</a>
+    </div>
+
+    <footer>
+        &copy; 2023 University Press
+    </footer>
+
+</body>
+
+</html>
